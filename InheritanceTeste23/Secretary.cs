@@ -31,5 +31,10 @@ namespace InheritanceTeste23
         {
             return base.CalculateSalary()*3;
         }
+
+        public override int CalculatePension()
+        {
+            return 3000;
+        }
     }
 }
